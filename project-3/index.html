@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading-section">
+        <h1 id="heading">STONE PAPPER SCISSOR</h1>
+      </div>
+      <div class="text-section">
+        <h3>YOU</h3>
+        <h3>COMPUTER</h3>
+      </div>
+      <div class="hands-section">
+        <div id="hand1">
+          <img src="rock.png" id="img1" />
+        </div>
+        <div id="hand2">
+          <img src="rock.png" id="img2" />
+        </div>
+      </div>
+      <div class="button-section">
+        <button type="button" onclick="game(0)" id="rock">ROCK</button>
+        <button type="button" onclick="game(1)" id="paper">PAPER</button>
+        <button type="button" onclick="game(2)" id="scissors">SCISSOR</button>
+        <button type="button" onclick="start()" id="start">START</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
